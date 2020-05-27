@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>VOLK STREET</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" id="menu">
+        <a class="navbar-brand logo1" href="#"><img src="jpg/Logo3..png" width="150px" alt="gena"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+        <div class="my-2 my-sm-0 collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" meny navbar-nav mr-auto">
+                <li class=" nav-item ">
+                    <a class="nav-link" href="#home">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">О НАС</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#uslugi" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        УСЛУГИ
+                      </a>
+                    <div class="dropdown-menu services" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="arenda.html">Аренда кальяна</a>
+                        <a class="dropdown-item" href="viezd.html">Кальян на выезд</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">КОНТАКТЫ</a>
+                </li>
+                <li class="nav-item">
+
+
+
+                    <a class="nav-link " href="tel:375295374441">+375295374441</a>
+                </li>
+            </ul>
+
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+        </div>
+    </nav>
+
+    <div class="d-flex p-12 col-sm-12 justify-content-center first-screen foto4" id="home">
+        <div class="row">
+            <div class="m-12">
+                <h1>КАЛЬЯНЫ</h1>
+                <p class="p1">ВНИМАНИЕ АКЦИЯ! КАЛЬЯН НА 2 ДНЯ ВСЕГО 35 РУБЛЕЙ!</p>
+                <p class="p2">АРЕНДА КАЛЬЯНА. КАЛЬЯН НА ВЫЕЗД</p>
+                <hr class="hr1">
+                <p class="p1">Самовывоз по адресу г. Гродно, ул. Октябрьская 4
+                    <br> Телефон: +375 (29) 5374441
+                    <br>Работаем без выходных с 11:00 до 23:00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="row d-flex p-12 justify-content-center">
+            <div class="m-3">
+                <hr class="hr2">
+            </div>
+            <div class="m-6 h2">О НАС</div>
+            <div class="m-3">
+                <hr class="hr2">
+            </div>
+        </div>
+        <div class="row d-flex p-12 justify-content-center">
+
+            <div class="m-12">
+                <p class="p1">Volk street — не просто команда профессионалов, а ещё и эсперементаторов, готовых
+                    <br>сделать для вас уникальный кальян, учитывая все ваши пожелания.</p>
+                <p class="p1">Главная особенность нашей работы — это мобильность. Будь это кальянная вечеринка, посиделки в
+                    <br> близком кругу, корпоратив или свадьба, мы подберём для вас идеальный вариант установки кальянов.
+                    <br>Профессиональное приготовление кальянов, использование качественных табаков с огромным
+                    <br> количеством вкусов не оставит равнодушными вас и ваших гостей.</p>
+                <p class="p1"> Volk Street - гарантирует вам вкусный и дымный кальян!</p>
+            </div>
+
+        </div>
+        <div class="row d-flex p-12 justify-content-center">
+            <button type="button" class="btn btn-outline-warning button1">НАШИ УСЛУГИ</button>
+        </div>
+    </div>
+
+    <div class="catalog1">
+        <div class="row d-flex p-12 justify-content-between align-items-stretch">
+            <div class="s-box foto m-6">
+                <a class="h4" href="arenda.html">АРЕНДА <br>КАЛЬЯНОВ</a>
+            </div>
+            <div class="s-box foto1 m-6">
+                <a class="h4" href="viezd.html">КАЛЬЯН<br> НА ВЫЕЗД</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="zayavka">
+        <div class="row d-flex p-12 justify-content-center">
+
+            <div class="m-12 h2">СДЕЛАТЬ ЗАКАЗ</div>
+        </div>
+        <div class="row d-flex p-12 justify-content-center">
+            <div class="razmer">
+                <form class="m-12" action="submit.php" method="POST" name="contact" id="contact">
+                    <div class="form-group">
+
+                        <input name="name" id="name" type="text" class="form-control border" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+
+                        <input name="tel" id="tel" type="tel" class="form-control border" placeholder="Номер телефона">
+                    </div>
+                    <div class="form-group">
+
+                        <select name="select"  class="form-control border"> 
+                            <option class="services1" value="-1">Выберите услугу</option> 
+                            <option class="services1" value="Кальян на выезд">Кальян на выезд</option> 
+                            <option class="services1" value="Аренда кальяна">Аренда кальяна</option> 
+                            </select>
+                    </div>
+                    <div class="form-group">
+
+                        <textarea name="message" id="message" class="form-control border" rows="3" placeholder="Комментарий к заказу"></textarea>
+                    </div>
+
+
+                    <div class="row d-flex p-12 justify-content-center">
+                        <button id="button" name="button" type="submit" class="btn btn-outline-warning button1" value="Заказать">Заказать</button>
+
+                    </div>
+                </form>
+                <!--<form id="">
+                    <div class="field">
+                        <input name="name" type="text" placeholder="Ваше имя" class="required">
+                    </div>
+                    <div class="field">
+                        <input name="tel" type="text" placeholder="Номер телефона" class="required">
+                    </div>
+                    <div class="field">
+                        <textarea class="form-control" id="" rows="3"></textarea>
+                    </div>
+                </form>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer1">
+        <div class="m-12 foto2">
+            <div class="row d-flex p-12 justify-content-center">
+                <hr class="hr3">
+                <div class="m-12 h3">КОНТАКТЫ</div>
+            </div>
+            <div class="row d-flex p-12 justify-content-center">
+                <div class="m-12">
+                    <p class="p3">Самовывоз по адресу г. Гродно, ул. Октябрьская 4</p>
+                    <p class="p3">Телефон: +375 (29) 5374441</p>
+                    <p class="p3">Работаем без выходных с 11:00 до 22:00</p>
+                </div>
+            </div>
+            <div class="row d-flex p-12 justify-content-center">
+                <a href="https://vk.com/nonaime" target="_blank"><button type="button" class="btn btn-outline-warning button2">ВКОНТАКТЕ</button></a>
+                <a href="https://www.instagram.com/hffjt_shisha/?hl=ru" target="_blank"><button type="button"  class="btn btn-outline-warning button2">INSTAGRAM</button></a>
+            </div>
+            <div class="row d-flex p-12 justify-content-center">
+
+                <div class="m-12">
+                    <p class="p4">© 2018 VOLK STREET
+                        <!--<a href="https://raihen.by" target="_blank">raihen.by</a>--></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
